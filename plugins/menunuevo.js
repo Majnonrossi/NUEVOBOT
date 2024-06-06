@@ -413,10 +413,10 @@ let menuOwner = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 ┊┗━━━━━━━━━━━━━━•
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
 
-if (command == 'menu' || command == 'help') {
+if (command == 'menup' || command == 'help') {
 m.react('💫') 
 let saludos = `~ HyperX te saluda ${pushname} ${user.registered === true ? '✓' : ''}`
-let menu = `
+let menup = `
 ╭┄╌╌╌╌〔 ≪ •🌐• ≫ 〕╌╌┄─╌╌•
 ┆📡 BIENVENIDO AL MENU PRINCIPAL DE HYPERX
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
